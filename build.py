@@ -7,14 +7,14 @@ batteryBackColor = (64,64,64,255)
 batteryFullColor = (0,255,0,255)
 batteryEmptyColor = (255,0,0,255)
 bigDigitColor = (255,255,255,255)
-bigDigitSize = (60,85)
+bigDigitSize = (60,88)
 bigDigitFile = "heavy%01d.png"
 zeroTensHourDigit = False
 heartDigitColor = (255,153,85,255)
-heartDigitSize = (30,42)
+heartDigitSize = (32,46)
 heartDigitFile = "bold%01d.png"
 stepsDigitColor = (255,255,0,255)
-stepsDigitSize = (24,42)
+stepsDigitSize = (25,46)
 stepsDigitFile = "bold%01d.png"
 
 bigDigitNormalIndex = 0
