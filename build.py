@@ -9,12 +9,14 @@ batteryEmptyColor = (255,0,0,255)
 bigDigitColor = (255,255,255,255)
 bigDigitSize = (60,85)
 bigDigitFile = "heavy%01d.png"
+zeroTensHourDigit = False
 heartDigitColor = (255,153,85,255)
 heartDigitSize = (30,42)
 heartDigitFile = "bold%01d.png"
 stepsDigitColor = (255,255,0,255)
 stepsDigitSize = (24,42)
 stepsDigitFile = "bold%01d.png"
+
 bigDigitNormalIndex = 0
 bigDigitHourTensIndex = 10
 batteryIndex = 20
@@ -66,7 +68,7 @@ for i in range(10):
     img.save("%s/%04d.png" % (buildDirectory, i+batteryIndex), 'PNG')
     
 generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitNormalIndex)
-generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitHourTensIndex,blankZero=True)
+generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitHourTensIndex,blankZero=False if zeroTensHourDigit else True)
 generateDigits(heartDigitFile,heartDigitColor,heartDigitSize,heartDigitIndex)
 generateDigits(stepsDigitFile,stepsDigitColor,stepsDigitSize,stepsDigitIndex)
 os.system(os.path.join("..","Mi.Band.WatchFace.Editor","WatchFace","WatchFace") + " build/miband5.json")
