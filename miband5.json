@@ -1,0 +1,112 @@
+{
+  "Background": {
+    "BackgroundColor": "0x000000"
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 4,
+        "Y": 0,
+        "ImageIndex": 10,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 64,
+        "Y": 0,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 4,
+        "Y": 90,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 64,
+        "Y": 90,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV11": 0
+  },
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 5,
+        "TopLeftY": 202,
+        "BottomRightX": 122,
+        "BottomRightY": 203,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": 40,
+        "ImagesCount": 10
+      }
+    },
+    "Pulse": {
+      "Number": {
+        "TopLeftX": 5,
+        "TopLeftY": 250,
+        "BottomRightX": 122,
+        "BottomRightY": 251,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": 30,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV7": 0
+  },
+  "Battery": {
+    "Linear": {
+      "StartImageIndex": 20,
+      "Segments": [
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        },
+        {
+          "X": 0,
+          "Y": 188
+        }
+      ]
+    }
+  }
+}
