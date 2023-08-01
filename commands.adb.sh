@@ -8,5 +8,5 @@ dirs=( * )
 cd ${dirs[0]}
 files=( *.bin )
 cp /data/local/tmp/miband5_packed.bin ${files[0]}
-files=( *.png )
-cp /data/local/tmp/miband5_packed_preview.png ${files[0]}
+#files=( *.png )
+#cp /data/local/tmp/miband5_packed_preview.png ${files[0]}
