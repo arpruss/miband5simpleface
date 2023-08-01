@@ -84,7 +84,7 @@ for zero in (False,True):
         img.save("%s/%04d.png" % (buildDirectory, i+batteryIndex), 'PNG')
         
     generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitNormalIndex)
-    generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitHourTensIndex,blankZero=zero)
+    generateDigits(bigDigitFile,bigDigitColor,bigDigitSize,bigDigitHourTensIndex,blankZero=not zero)
     generateDigits(heartDigitFile,heartDigitColor,heartDigitSize,heartDigitIndex)
     generateDigits(stepsDigitFile,stepsDigitColor,stepsDigitSize,stepsDigitIndex)
     
