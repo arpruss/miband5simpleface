@@ -58,7 +58,7 @@
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
-        "ImageIndex": 40,
+        "ImageIndex": 30,
         "ImagesCount": 10
       }
     },
@@ -71,7 +71,7 @@
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
-        "ImageIndex": 30,
+        "ImageIndex": 20,
         "ImagesCount": 10
       }
     },
@@ -79,7 +79,7 @@
   },
   "Battery": {
     "Linear": {
-      "StartImageIndex": 20,
+      "StartImageIndex": 40,
       "Segments": [
         {
           "X": 0,
