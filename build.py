@@ -34,6 +34,7 @@ def resize(inFile,outFile,size):
     img.save(outFile,'PNG')
 
 def generateCharacter(inFile,color,size,index,blank=False):
+    print("From %s to %d" % (inFile, index))
     img = Image.open(inFile).convert('RGBA')
     img = img.resize(size,resample=Image.LANCZOS)
     for x in range(img.size[0]):
@@ -50,7 +51,7 @@ def generateCharacter(inFile,color,size,index,blank=False):
 def generateDigits(digits):
     print("Generating %04d" % digits.index)
     for i in range(10):
-        generateCharacter(digits.file % i,digits.color,digits.size, digits.index, blank=(digits.blankZero and i == 0))
+        generateCharacter(digits.file % i,digits.color,digits.size, digits.index+i, blank=(digits.blankZero and i == 0))
         
 def generateBattery(b):
     print("Generating %04d" % b.index)
