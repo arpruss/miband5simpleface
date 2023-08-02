@@ -23,7 +23,7 @@ dateDigit = stepsDigit
 battery = Battery(size=(128,2), backColor=(64,64,64,255), fullColor = (0,255,0,255), emptyColor = (255,0,0,255), index = 40)
 dateSlash = DateSlash(file = "boldslash.png", size = dateDigit.size, color = dateDigit.color, index = 51)
 
-lightBigDigit = Digits(color = (0,0,0,255), size = (60,86), file = "heavy%01d.png", index=0)
+lightBigDigit = Digits(color = (0,0,0,255), size = (60,86), file = "bold%01d.png", index=0)
 lightBigDigitHourTensBlankZero = Digits(color = (0,0,0,255), size = (60,86), file = "bold%01d.png", index=10, blankZero = True)
 lightBigDigitHourTensZeroZero = Digits(color = (0,0,0,255), size = (60,86), file = "bold%01d.png", index=10, blankZero = False)
 lightHeartDigit = Digits(color = (128,0,0,255), size = (34,46), file = "bold%01d.png", index=20)
