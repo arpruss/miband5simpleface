@@ -1,20 +1,20 @@
 {
   "Background": {
-    "BackgroundColor": "0x000000",
+    "BackgroundColor": $background$,
     "Preview1": {
       "X": 18,
       "Y": 17,
-      "ImageIndex": 50
+      "ImageIndex": $index:preview$
     },
     "Preview2": {
       "X": 18,
       "Y": 17,
-      "ImageIndex": 50
+      "ImageIndex": $index:preview$
     },
     "Preview3": {
       "X": 18,
       "Y": 17,
-      "ImageIndex": 50
+      "ImageIndex": $index:preview$
     }
   },
   "Time": {
@@ -22,13 +22,13 @@
       "Tens": {
         "X": 0,
         "Y": 0,
-        "ImageIndex": 10,
+        "ImageIndex": $index:tensDigits$,
         "ImagesCount": 10
       },
       "Ones": {
         "X": 63,
         "Y": 0,
-        "ImageIndex": 0,
+        "ImageIndex": $index:bigDigits$,
         "ImagesCount": 10
       }
     },
@@ -36,13 +36,13 @@
       "Tens": {
         "X": 0,
         "Y": 92,
-        "ImageIndex": 0,
+        "ImageIndex": $index:bigDigits$,
         "ImagesCount": 10
       },
       "Ones": {
         "X": 63,
         "Y": 92,
-        "ImageIndex": 0,
+        "ImageIndex": $index:bigDigits$,
         "ImagesCount": 10
       }
     },
@@ -58,7 +58,7 @@
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
-        "ImageIndex": 30,
+        "ImageIndex": $index:stepsDigits$,
         "ImagesCount": 10
       }
     },
@@ -71,7 +71,7 @@
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
-        "ImageIndex": 20,
+        "ImageIndex": $index:heartDigits$,
         "ImagesCount": 10
       }
     },
@@ -79,7 +79,7 @@
   },
   "Battery": {
     "Linear": {
-      "StartImageIndex": 40,
+      "StartImageIndex": $index:battery$,
       "Segments": [
         {
           "X": 0,
