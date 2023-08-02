@@ -1,0 +1,127 @@
+{
+  "Background": {
+    "BackgroundColor": "0xFFFFFF",
+    "Preview1": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 50
+    },
+    "Preview2": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 50
+    },
+    "Preview3": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 50
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 0,
+        "Y": 0,
+        "ImageIndex": 10,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 63,
+        "Y": 0,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 0,
+        "Y": 92,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 63,
+        "Y": 92,
+        "ImageIndex": 0,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV11": 0
+  },
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 0,
+        "TopLeftY": 199,
+        "BottomRightX": 127,
+        "BottomRightY": 201,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": 30,
+        "ImagesCount": 10
+      }
+    },
+    "Pulse": {
+      "Number": {
+        "TopLeftX": 5,
+        "TopLeftY": 249,
+        "BottomRightX": 122,
+        "BottomRightY": 250,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": 20,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV7": 0
+  },
+  "Battery": {
+    "Linear": {
+      "StartImageIndex": 40,
+      "Segments": [
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        },
+        {
+          "X": 0,
+          "Y": 189
+        }
+      ]
+    }
+  }
+}

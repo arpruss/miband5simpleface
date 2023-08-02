@@ -21,12 +21,28 @@ heartDigit = Digits(color = (255,153,85,255), size = (34,46), file = "bold%01d.p
 stepsDigit = Digits(color = (255,255,0,255), size = (25,46), file = "bold%01d.png", index=30)
 dateDigit = stepsDigit
 battery = Battery(size=(128,2), backColor=(64,64,64,255), fullColor = (0,255,0,255), emptyColor = (255,0,0,255), index = 40)
-dateSlash = None # DateSlash(file = "boldslash.png", size = dateDigit.size, color = dateDigit.color, index = 51)
+dateSlash = DateSlash(file = "boldslash.png", size = dateDigit.size, color = dateDigit.color, index = 51)
+
+lightBigDigit = Digits(color = (0,0,0,255), size = (60,86), file = "heavy%01d.png", index=0)
+lightBigDigitHourTensBlankZero = Digits(color = (0,0,0,255), size = (60,86), file = "heavy%01d.png", index=10, blankZero = True)
+lightBigDigitHourTensZeroZero = Digits(color = (0,0,0,255), size = (60,86), file = "heavy%01d.png", index=10, blankZero = False)
+lightHeartDigit = Digits(color = (128,0,0,255), size = (34,46), file = "bold%01d.png", index=20)
+lightStepsDigit = Digits(color = (0,64,0,255), size = (25,46), file = "bold%01d.png", index=30)
+lightDateDigit = lightStepsDigit
+lightBattery = Battery(size=(128,2), backColor=(128,128,128,255), fullColor = (0,128,0,255), emptyColor = (128,0,0,255), index = 40)
+lightDateSlash = DateSlash(file = "boldslash.png", size = lightDateDigit.size, color = lightDateDigit.color, index = 51)
+
+
 
 heartStepsNoZero = Face(name="heart-steps-no-zero", json="miband5.json", timeDigit=bigDigit, hourTensDigit=bigDigitHourTensBlankZero,
                         battery=battery, heartDigit=heartDigit, stepsDigit=stepsDigit)
 heartStepsZero = Face(name="heart-steps-zero", json="miband5.json", timeDigit=bigDigit, hourTensDigit=bigDigitHourTensZeroZero,
                         battery=battery, heartDigit=heartDigit, stepsDigit=stepsDigit)
+lightHeartStepsNoZero = Face(name="light-heart-steps-no-zero", json="light.json", timeDigit=lightBigDigit, 
+                        hourTensDigit=lightBigDigitHourTensBlankZero,
+                        battery=lightBattery, heartDigit=lightHeartDigit, stepsDigit=lightStepsDigit)
+lightHeartStepsZero = Face(name="light-heart-steps-zero", json="light.json", timeDigit=lightBigDigit, hourTensDigit=lightBigDigitHourTensZeroZero,
+                        battery=lightBattery, heartDigit=lightHeartDigit, stepsDigit=lightStepsDigit)
 
 previewSize = (104,328)
 previewIndex = 50
@@ -103,4 +119,6 @@ except:
     pass
 
 generateFace(heartStepsNoZero)
-generateFace(heartStepsZero)    
+generateFace(heartStepsZero)
+generateFace(lightHeartStepsNoZero)
+generateFace(lightHeartStepsZero)

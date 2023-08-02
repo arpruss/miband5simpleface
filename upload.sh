@@ -1,3 +1,3 @@
-adb push build/BigAndSimple-no-leading-zero_packed.bin /data/local/tmp/miband5_packed.bin
+adb push build/heart-steps-no-zero_packed.bin /data/local/tmp/miband5_packed.bin
 adb shell < commands.adb.sh
 
