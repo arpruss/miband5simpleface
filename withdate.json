@@ -1,0 +1,149 @@
+{
+  "Background": {
+    "BackgroundColor": $background$,
+    "Preview1": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": $index:preview$
+    },
+    "Preview2": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": $index:preview$
+    },
+    "Preview3": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": $index:preview$
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 0,
+        "Y": 0,
+        "ImageIndex": $index:tensDigits$,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 63,
+        "Y": 0,
+        "ImageIndex": $index:bigDigits$,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 0,
+        "Y": 77,
+        "ImageIndex": $index:bigDigits$,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 63,
+        "Y": 77,
+        "ImageIndex": $index:bigDigits$,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV11": 0
+  },
+    "Date": {
+        "MonthAndDayAndYear": {
+          "OneLine": {
+            "Number": {
+              "TopLeftX": 0,
+              "TopLeftY": 151,
+              "BottomRightX": 126,
+              "BottomRightY": 152,
+              "Alignment": "TopCenter",
+              "SpacingX": 0,
+              "SpacingY": 0,
+              "ImageIndex": $index:dateDigits$,
+              "ImagesCount": 10
+            },
+            "DelimiterImageIndex": $index:slash$
+          },
+          "TwoDigitsMonth": false,
+          "TwoDigitsDay": true
+        }
+      },  
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 0,
+        "TopLeftY": 205,
+        "BottomRightX": 127,
+        "BottomRightY": 206,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": $index:stepsDigits$,
+        "ImagesCount": 10
+      }
+    },
+    "Pulse": {
+      "Number": {
+        "TopLeftX": 5,
+        "TopLeftY": 249,
+        "BottomRightX": 122,
+        "BottomRightY": 250,
+        "Alignment": "TopCenter",
+        "SpacingX": 0,
+        "SpacingY": 0,
+        "ImageIndex": $index:heartDigits$,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownV7": 0
+  },
+
+
+  "Battery": {
+    "Linear": {
+      "StartImageIndex": $index:battery$,
+      "Segments": [
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        },
+        {
+          "X": 0,
+          "Y": 200
+        }
+      ]
+    }
+  }
+}

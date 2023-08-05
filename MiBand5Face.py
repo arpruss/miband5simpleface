@@ -90,9 +90,12 @@ class Face(object):
             self.generateDigits(self.heartDigit)
         if self.stepsDigit:
             self.generateDigits(self.stepsDigit)
+        if self.dateDigit:
+            self.generateDigits(self.dateDigit)
         if self.battery:
             self.generateBattery(self.battery)
         if self.dateSlash:
+            self.jsonParams["index:" + self.dateSlash.index] = self.index
             self.generateCharacter(self.dateSlash.file,self.dateSlash.color,self.dateSlash.size)
         resize(json[:-5]+"_packed_preview.png", "%s/%04d.png" % (self.buildDirectory, self.index), Face.previewSize)
         self.jsonParams["index:preview"] = self.index
