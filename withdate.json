@@ -35,13 +35,13 @@
     "Minutes": {
       "Tens": {
         "X": 0,
-        "Y": 77,
+        "Y": 86,
         "ImageIndex": $index:bigDigits$,
         "ImagesCount": 10
       },
       "Ones": {
         "X": 63,
-        "Y": 77,
+        "Y": 86,
         "ImageIndex": $index:bigDigits$,
         "ImagesCount": 10
       }
@@ -53,9 +53,9 @@
           "OneLine": {
             "Number": {
               "TopLeftX": 0,
-              "TopLeftY": 151,
+              "TopLeftY": 172,
               "BottomRightX": 126,
-              "BottomRightY": 152,
+              "BottomRightY": 173,
               "Alignment": "TopCenter",
               "SpacingX": 0,
               "SpacingY": 0,
@@ -72,9 +72,9 @@
     "Steps": {
       "Number": {
         "TopLeftX": 0,
-        "TopLeftY": 205,
+        "TopLeftY": 207,
         "BottomRightX": 127,
-        "BottomRightY": 206,
+        "BottomRightY": 207,
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
@@ -85,9 +85,9 @@
     "Pulse": {
       "Number": {
         "TopLeftX": 5,
-        "TopLeftY": 249,
+        "TopLeftY": 251,
         "BottomRightX": 122,
-        "BottomRightY": 250,
+        "BottomRightY": 251,
         "Alignment": "TopCenter",
         "SpacingX": 0,
         "SpacingY": 0,
